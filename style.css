@@ -9,3 +9,17 @@ body {
   background-color: lightgray;
   font-family: sans-serif;
 }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+}
+.navbar > li > a {
+border: 1px solid black; 
+padding: 20px;
+color: black;
+background-color: rgb(181, 181, 181);
+}
