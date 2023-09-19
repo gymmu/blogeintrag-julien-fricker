@@ -40,3 +40,14 @@ li a:hover {
   background-color: #494949;
   color: white;
 }
+.text-next-to-img {
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+  .text-next-to-img > .text {
+    border: 1px solid lightgray;
+    padding: 1rem 2rem;
+  }
+  .text-next-to-img > img {
+    width: 90%;
+  }
